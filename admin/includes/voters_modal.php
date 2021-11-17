@@ -156,8 +156,12 @@
               <h4 class="modal-title"><b>Upload Voter</b></h4>
             </div>
             <div class="modal-body">
-              <form class="form-horizontal" method="POST" action="voters_add.php" enctype="multipart/form-data">
-                <div class="form-group">
+              <form class="form-horizontal" method="POST" action="voters_upload.php" enctype="multipart/form-data">
+                <input type="file" name="csvfile" required="required" />
+                <!-- <input type="submit" value= "Upload" /> -->
+                <button type="submit" class="btn btn-primary btn-flat pull-right" name="Upload"><i class="fa fa-save"></i> Upload</button>
+
+                    <!-- <div class="form-group">
                     <label for="firstname" class="col-sm-3 control-label">Firstname</label>
 
                     <div class="col-sm-9">
@@ -185,10 +189,10 @@
                       <input type="file" id="photo" name="photo">
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="modal-footer">
               <button type="button" class="btn btn-default btn-flat pull-left" data-dismiss="modal"><i class="fa fa-close"></i> Close</button>
-              <button type="submit" class="btn btn-primary btn-flat" name="add"><i class="fa fa-save"></i> Save</button>
+              <!-- <button type="submit" class="btn btn-primary btn-flat" name="add"><i class="fa fa-save"></i> Save</button> -->
               </form>
             </div>
         </div>

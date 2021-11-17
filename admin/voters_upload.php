@@ -1,7 +1,7 @@
 <?php
 include 'includes/session.php';
 
-if(isset($_POST['add'])){
+if(isset($_POST['upload'])){
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
