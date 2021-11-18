@@ -88,6 +88,14 @@ CREATE TABLE `voters` (
   `photo` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+
+--
+-- Dumping data for table `voters`
+--
+
+INSERT INTO `voters` (`id`, `voters_id`, `password`, `firstname`, `lastname`, `photo`) VALUES
+(12345678, 'Testing', '$2y$10$fLK8s7ZDnM.1lE7XMP.J6OuPbQ.DPUVKBo7rENnQY7gYq0xAzsKJy', 'Victor', 'Oluwafemi', 'myprofile.jpg');
+
 -- --------------------------------------------------------
 
 --
