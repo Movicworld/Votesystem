@@ -159,7 +159,7 @@
               <form class="form-horizontal" method="POST" action="voters_upload.php" enctype="multipart/form-data">
                 <input type="file" name="csvfile" required="required" />
                 <!-- <input type="submit" value= "Upload" /> -->
-                <button type="submit" class="btn btn-primary btn-flat pull-right" name="Upload"><i class="fa fa-save"></i> Upload</button>
+                <button type="submit" class="btn btn-primary btn-flat pull-right" name="Upload"><i class="fa fa-save"></i>Upload</button>
 
                     <!-- <div class="form-group">
                     <label for="firstname" class="col-sm-3 control-label">Firstname</label>
