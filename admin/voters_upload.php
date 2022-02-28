@@ -16,5 +16,5 @@ else{
 }
 
 header('location: voters.php');
-// 
+ 
 ?>
